@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <header class="gallery" id="gallery">
+        <div class="loopimages">
+          <img
+            class="galleryThumbnail"
+            id="gallery"
+            src="camera.jpeg"
+            alt="parts of a camera"
+          />
+
+          <img
+            id="gallery"
+            class="galleryThumbnail"
+            src="coffeeshop.jpeg"
+            alt="image of a coffeeshop"
+          />
+
+          <img
+            id="gallery"
+            class="galleryThumbnail"
+            src="fishing.jpeg"
+            alt="fishing on sea front"
+          />
+        </div>
+      </header>
+    </section>
+    <div id="main"></div>
+    <button class="nextButton" id="next">&#8594;</button>
+    <button class="prevButton" id="prev">&#8592;</button>
+    <img class="main-image" src="camera.jpeg" id="main-image" />
+  </body>
+</html>
